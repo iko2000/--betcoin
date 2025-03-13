@@ -3,7 +3,7 @@ import React from 'react'
 import InfiniteMenu from '../reactbits/gridmenu';
 export default function Homepagehero() {
 
-    const items = [
+    const items:any = [
         {
           image: 'https://picsum.photos/300/300?grayscale',
           link: 'https://google.com/',
