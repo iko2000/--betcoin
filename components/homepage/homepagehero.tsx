@@ -3,8 +3,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
-import Threads from "../reactbits/grid-bg";
-
 const Homepagehero = () => {
   const [isVisible, setIsVisible] = useState(false);
   
@@ -16,7 +14,6 @@ const Homepagehero = () => {
     <section className="relative overflow-hidden bg-[#0A192F] w-full h-screen">
       {/* Background thread animation */}
       <div className="absolute inset-0 z-0">
-        <Threads />
       </div>
       
       {/* Bitcoin symbol */}
